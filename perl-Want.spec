@@ -2,7 +2,7 @@
 
 Summary:	Want module for perl 
 Name:		perl-%{real_name}
-Version:	0.10
+Version:	0.14
 Release:	%mkrel 1
 License:	GPL or Artistic
 Group:		Development/Perl
