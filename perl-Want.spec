@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.18
-Release:	%mkrel 5
+Release:	%mkrel 6
 Summary:	A generalisation of wantarray
 License:	GPL or Artistic
 Group:		Development/Perl
