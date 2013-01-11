@@ -14,6 +14,7 @@ Source0:    http://search.cpan.org/CPAN/authors/id/R/RO/ROBIN/%{upstream_name}-%
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl-devel
 BuildRequires: perl(JSON::PP)
+
 %description
 This module generalises the mechanism of the wantarray function, allowing a
 function to determine in some detail how its return value is going to be
