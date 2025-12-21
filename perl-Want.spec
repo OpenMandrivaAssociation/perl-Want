@@ -12,6 +12,7 @@ Group:      Development/Perl
 Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://search.cpan.org/CPAN/authors/id/R/RO/ROBIN/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl-devel
 BuildRequires: perl-JSON-PP
