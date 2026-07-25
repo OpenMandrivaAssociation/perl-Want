@@ -1,16 +1,16 @@
 %define upstream_name    Want
-%define upstream_version 0.23
+%define upstream_version 0.29
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    3
+Version:    %{upstream_version}
+Release:    1
 
 Summary:    A generalisation of wantarray
 
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://search.cpan.org/CPAN/authors/id/R/RO/ROBIN/%{upstream_name}-%{upstream_version}.tar.gz
+Url:        https://metacpan.org/dist/Want
+Source0:    https://cpan.metacpan.org/authors/id/R/RO/ROBIN/Want-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(ExtUtils::MakeMaker)
