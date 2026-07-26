@@ -1,16 +1,14 @@
 %define upstream_name    Want
-%define upstream_version 0.29
-
 Name:       perl-%{upstream_name}
-Version:    %{upstream_version}
-Release:    1
+Version:    0.29
+Release:    2
 
 Summary:    A generalisation of wantarray
 
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        https://metacpan.org/dist/Want
-Source0:    https://cpan.metacpan.org/authors/id/R/RO/ROBIN/Want-%{upstream_version}.tar.gz
+Source0:    https://cpan.metacpan.org/authors/id/R/RO/ROBIN/Want-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(ExtUtils::MakeMaker)
@@ -23,7 +21,7 @@ function to determine in some detail how its return value is going to be
 immediately used.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor DESTDIR=%{buildroot}
